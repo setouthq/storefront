@@ -1,0 +1,7 @@
+version = 1
+
+[tasks.dev]
+run = "node --watch server.ts"
+
+[tasks.test]
+run = "node test.ts"
